@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+.card {
+  margin-top: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  
+  margin: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  background-color: aquamarine;
+  padding: 2px 16px;
+}
+.card>img{
+  width:50%;
+  height: 50%;
+}
